@@ -1,0 +1,139 @@
+.wave-container {
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.wave-card {
+  max-width: 500px;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  border-radius: 12px;
+  padding: 1rem;
+  width: 70vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers content horizontally */
+  flex-direction: row;
+}
+
+.wave-card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers text within columns */
+}
+
+.wave-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00796B;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(minmax(180px, 1fr)); /* Use auto-fit for better responsiveness */
+  gap: 1rem;
+  justify-content: center; /* Center grid items horizontally */
+  margin: auto; /* Center the grid within the container */
+}
+
+.wave-card,
+.status-card {
+  background: linear-gradient(135deg, #E0F7FA, #B2EBF2);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  justify-content: space-between; /* Align content to sides */
+  align-items: center;
+  flex-direction: row; /* Horizontal alignment */
+}
+
+.wave-card:hover,
+.status-card:hover {
+  transform: scale(1.05);
+}
+
+.wave-time {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #004D40;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.wave-height {
+  font-size: 1.25rem;
+  color: #00796B;
+  text-align: center;
+}
+
+/* Ensuring the emoji and text displays properly */
+.status-card p {
+  margin: 0;
+}
+
+.status-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 1rem;
+}
+
+.card-group {
+  flex-direction: column;
+}
+
+.input-field {
+  width: 30%;
+  padding: 0.5rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #b2ebf2;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.coordinates-display {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  gap: 20vw;
+}
+
+.popular-places {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.beach-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #00796B;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.beach-button:hover {
+  background-color: #004D40;
+  transform: translateY(-2px);
+}
