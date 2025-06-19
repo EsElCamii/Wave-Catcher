@@ -19,7 +19,7 @@
 
 **Wave Catcher** is a lightweight, surf-themed web app that pulls live ocean wave height data using the Open-Meteo marine API. Designed for surfers, beach lovers, and weather nerds, this app offers a simple interface that turns raw JSON into an intuitive table of sea conditions.
 
-Visit it live 👉 [Wave Catcher Project](https://xust4o.mimo.run/wave.html)
+Visit it live 👉 [Wave Catcher Project](https://h1x5ry.mimo.run/)
 
 ---
 
